@@ -1,1 +1,13 @@
-=link_to 'Back to Jam Staging', @deep_link,style: 'background-color: #067BC2; color: #F5F5F8; text-align: center; text-decoration: none; font-size: 18px; line-height: 24px; padding: 12px 78px; border-radius: 8px'
+%div{style: 'text-align: center; font-family: "Lato", sans-serif;'}
+  %div{style: 'background-color: #067BC2; height: 270px; display: flex; flex-direction: column; align-items: center'}
+    =image_tag('/banked/jamdoughnut_logo.svg', style: 'margin-top: 40px')
+    =image_tag('/banked/wallet.svg', style: 'position: relative; top: 90px')
+  %div
+    %p{style: 'margin: 130px 0 0; color: #474C69; font-weight: bold; font-size: 26px; line-height: 32px'}
+      =@text1
+      %br/
+      =@text2
+    %p{style: 'margin-top: 8px; color: #9A9FB9; font-weight: bold; font-size: 18px; line-height: 18px'}
+      =@text3
+    %div{style: 'margin-top: 48px'}
+      =link_to 'Back to Jamdoughnut', @deep_link, style: 'background-color: #067BC2; color: #F5F5F8; text-align: center; text-decoration: none; font-size: 18px; line-height: 24px; padding: 12px 78px; border-radius: 8px'
