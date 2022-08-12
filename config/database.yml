@@ -83,4 +83,4 @@ production:
   <<: *default
   database: app_side_production
   username: app_side
-  password: <%= ENV["APP_SIDE_DATABASE_PASSWORD"] %>
+  password: 
