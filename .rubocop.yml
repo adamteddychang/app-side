@@ -1,0 +1,48 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'config/*'
+    - 'config/*/*'
+    - 'lib/tasks/*'
+Metrics/AbcSize:
+  Max: 100
+Metrics/CyclomaticComplexity:
+  Max: 50
+Metrics/PerceivedComplexity:
+  Max: 50
+Metrics/ClassLength:
+  Enabled: false
+Metrics/MethodLength:
+    Enabled: false
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/*/*'
+    - 'spec/*/*/*'
+    - 'app/admin/*'
+Style/ClassAndModuleChildren:
+  Enabled: false
+Metrics/LineLength:
+  Max: 120
+Style/StringLiterals:
+  Description: 'Checks if uses of quotes match the configured preference.'
+  StyleGuide: '#consistent-string-literals'
+  Enabled: true
+  EnforcedStyle: single_quotes
+
+Style/SymbolArray:
+  Description: 'Use %i or %I for arrays of symbols.'
+  StyleGuide: '#percent-i'
+  Enabled: true
+  EnforcedStyle: brackets
+
+Style/WordArray:
+  Description: 'Use %w or %W for arrays of words.'
+  StyleGuide: '#percent-w'
+  Enabled: true
+  EnforcedStyle: brackets
+Style/Documentation:
+  Enabled: false
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
