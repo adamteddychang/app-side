@@ -1,0 +1,16 @@
+{
+  "webcredentials": {
+    "apps": [
+      "P6VZ9LSZ8T.com.jamdoughnut-ios-staging"
+    ]
+  },
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "P6VZ9LSZ8T.com.jamdoughnut-ios-staging",
+        "paths": [ "/banked", "/reset_password", "NOT *"]
+      }
+    ]
+  }
+}
