@@ -2,6 +2,6 @@
 
 class BankedController < ApplicationController
   def index
-    puts 'Hello'
+    @deep_link = "com.jamstaging://banked"
   end
 end
