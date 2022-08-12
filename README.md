@@ -1,10 +1,8 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
 
@@ -71,6 +69,4 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
