@@ -31,3 +31,4 @@
 /config/master.key
 # ignore the postgresql folder
 postgresql
+
